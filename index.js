@@ -21,10 +21,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
-   Object.keys(cart).forEach(value =>{
-     
-   })
+  
 }
+  
+  
 function total() {
   // write your code here
 }
