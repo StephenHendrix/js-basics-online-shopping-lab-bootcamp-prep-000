@@ -21,6 +21,7 @@ function addToCart(item) {
   
 }
 
+function 
 
 function viewCart() {
    Object.values(cart).forEach(value =>{
