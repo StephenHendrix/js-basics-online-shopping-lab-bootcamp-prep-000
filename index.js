@@ -23,22 +23,7 @@ function addToCart(item) {
 
 
 function viewCart() {
-    if (cart.length<1) {
-    console.log(`Your shopping cart is empty.`)
-  } else if (cart.length === 1) {
-  for (let [key, value] of Object.entries(cart)) {  
-  console.log(`In your cart, you have ${key} at ${value}.`)
-}
-} else if (cart.length === 2) {
-  for(var key in cart) {
-  console.log(`In your cart, you have ${key[0]} at $${cart[key][0]} and ${key[1]} at $${cart[key][1]}.`)
-
-}
-
-} else {
-  console.log("not done")
-}
-}
+   
 
 function total() {
   // write your code here
