@@ -21,7 +21,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-   Object.values(cart).forEach(value =>{
+   Object.keys(cart).forEach(value =>{
      
    })
 }
