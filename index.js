@@ -23,8 +23,8 @@ function addToCart(item) {
 
 
 function viewCart() {
-   
-
+   Object.values
+}
 function total() {
   // write your code here
 }
