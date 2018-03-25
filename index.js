@@ -21,8 +21,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  if (cart.length === 1) {
   Object.keys(cart).forEach((key, index) => {
     return "In your cart, you have " + key + " at " + cart[key] + "."
+  })
   }
 }
   
