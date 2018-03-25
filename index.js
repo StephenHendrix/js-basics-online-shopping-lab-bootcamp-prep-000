@@ -18,10 +18,7 @@ function addToCart(item) {
   cart.push({ [item]: getRandomIntInclusive(1, 100) })
   console.log(`${item} has been added to your cart.`)
   return cart
-  
 }
-
-function 
 
 function viewCart() {
    Object.values(cart).forEach(value =>{
