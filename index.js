@@ -23,7 +23,7 @@ function addToCart(item) {
 
 
 function viewCart() {
-   Object.values(cart)
+   Object.values(cart).forEach
 }
 function total() {
   // write your code here
