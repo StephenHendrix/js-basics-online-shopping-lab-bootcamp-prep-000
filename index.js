@@ -22,7 +22,7 @@ function addToCart(item) {
 
 function viewCart() {
   Object.keys(cart).forEach((key, index) => {
-    return `In your cart, you have 
+    return "In your cart, you have " + key + " "
   }
 }
   
